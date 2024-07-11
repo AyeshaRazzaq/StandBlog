@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500&family=Oswald:wght@300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.parent-class{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 241, 243);
+    padding: 20px 60px;
+}
+.dot{
+    background-color: orange;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    position: relative;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+.list-items{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: dotted;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+.list-items:hover{
+    color: orange;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: end; */
+    width: 100%;
+    margin-top: 20px;
+}
+.card1{
+    background-image: url("../images/71-FZGe540L._AC_UF1000\,1000_QL80_.jpg");
+    width: 32%;
+    padding: 30px;
+    height: 50vh;
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+    background-color: rgba(29, 24, 24, 0.432);
+    padding-top: 210px;
+    line-height: 20px;
+    color: white;
+}
+.nav i{
+    color: orange;
+    padding: 5px;
+}
+.card2{
+    background-image: url("../images/1503667-mont-saint-michel.jpg");
+    width: 32%;
+    padding: 30px;
+    height: 50vh;
+    background-size: 100% 100%;
+    padding-top: 210px;
+    line-height: 20px;
+    color: white;
+}
+.card3{
+    background-image: url("../images/photo-1531826267553-c4979aefab12.avif");
+    width: 32%;
+    padding: 30px;
+    height: 50vh;
+    background-size: 100% 100%;
+    padding-top: 190px;
+    line-height: 20px;
+    color: white;
+}
+.head1{
+    color: rgb(228, 110, 26);
+    margin-top: 10px;
+}
+.head3{
+    word-spacing: 5px;
+}
+.template{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    line-height: 25px;
+    padding: 30px;
+    margin: 5%;
+}
+.temp-head1{
+    color: rgb(228, 110, 26);
+}
+.btn1{
+    background-color: rgb(228, 110, 26);
+    border-radius: 0%;
+    border-color: rgb(228, 110, 26);
+    padding: 10px;
+}
+.card-2{
+    display: flex;
+    width: 100%;
+    /* position: absolute; */
+}
+.child-card1{
+    width: 55%;
+    margin-left: 5%;
+    border-style: solid;
+    border-color: rgb(245, 240, 241);
+}
+.child-card2{
+    width: 55%;
+    margin-left: 5%;
+    border-style: solid;
+    border-color: rgb(245, 240, 241);
+}
+.child-card3{
+    width: 25%;
+    margin-left: 5%;
+}
+.special-one{
+    position: absolute;
+    left: 0%;
+    padding-top: 55%;
+}
+.child-p{
+    padding: 10px 0 5px 0;
+}
+.child-p2{
+    margin-top: 40px;
+}
+.main-p{
+    padding: 20px 0;
+}
+.card-data{
+    padding: 0 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.search-bar{
+    /* margin-bottom: 30px; */
+    padding-right: 60px;
+}
+.card3-para{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.date{
+    color: rgb(170, 156, 156);
+    padding-bottom: 5px;
+}
+#unique-list{
+    list-style: none;
+    line-height: 40px;
+}
+#unique-list li:before {
+    content: " - ";
+  }
+  .btn2{
+    padding: 5px;
+    margin: 3px;
+    color: rgb(170, 156, 156);
+    border-radius: 0%;
+    border-color: rgb(223, 203, 206);
+    border-style: solid;
+  }
+  .line1{
+    margin-bottom: 20px;
+    color: rgb(240, 224, 224);
+    border-style: dotted;
+  }
+  .line3{
+    color: rgb(240, 224, 224);
+    border-style: dotted;
+    margin: 5px 0;
+  }
+  .btn3{
+    background-color: rgb(228, 110, 26);
+    position: relative;
+    margin-top: 58%;
+    margin-left: 5%;
+    padding: 15px 24.5%;
+    border-style: solid;
+    border-color: rgb(228, 110, 26);
+  }
+  .bottom-nav{
+    margin-top: 60px;
+    color: white;
+    background-color: black;
+  }
+  .list2-items{
+    display: flex;
+    list-style-type: none;
+    padding-left: 30%;
+  }
+  .item-list{
+    margin-left: 3%;
+    padding: 3% 0;
+  }
+  .nav2{
+    padding: 2% 0;
+    text-align: center;
+  }
+  .line2{
+    color: rgb(48, 41, 41);
+    border-style: dotted;
+  }
